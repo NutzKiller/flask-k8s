@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-gif-config
+data:
+  FLASK_ENV: "production"
+  DB_HOST: "db-service"
+  DB_NAME: "flaskdb"
+  DB_USER: "flaskuser"
